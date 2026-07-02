@@ -1,0 +1,122 @@
+================================================================================
+  SENSITIVE DATA DETECTION & COMPLIANCE ASSISTANT
+  START HERE 👈
+================================================================================
+
+PICK YOUR OPERATING SYSTEM BELOW AND FOLLOW THE STEPS:
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🪟 WINDOWS USERS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  OPTION 1: ONE-CLICK RUN (Easiest!)
+  ──────────────────────────────────
+  1. Double-click: RUN_ON_WINDOWS.bat
+     → Everything happens automatically
+     → Browser opens at http://localhost:8501
+
+  OPTION 2: Manual setup (if .bat doesn't work)
+  ──────────────────────────────────
+  1. Right-click this folder → "Open PowerShell here"
+  2. Copy & paste this line:
+     python -m venv venv; .\venv\Scripts\Activate.ps1; pip install -r requirements.txt; streamlit run app.py
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🍎 macOS / 🐧 LINUX USERS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  OPTION 1: ONE-CLICK RUN (Easiest!)
+  ──────────────────────────────────
+  1. Open Terminal
+  2. Navigate to this folder:
+     cd ~/Desktop/sensitive-data-compliance-assistant
+     (or wherever you extracted it)
+  3. Run:
+     bash RUN_ON_MAC_LINUX.sh
+     → Everything happens automatically
+     → Browser opens at http://localhost:8501
+
+  OPTION 2: Manual setup (step-by-step)
+  ──────────────────────────────────
+  1. Open Terminal
+  2. cd ~/Desktop/sensitive-data-compliance-assistant
+  3. python3 -m venv venv
+  4. source venv/bin/activate
+  5. pip install -r requirements.txt
+  6. streamlit run app.py
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ WHAT HAPPENS NEXT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Your browser opens and shows the app at: http://localhost:8501
+
+  In the sidebar:
+  1. Click "Upload Documents"
+  2. Select: sample_data/sample_document.txt
+  3. The app automatically scans it
+  4. You see results in the tabs below
+
+  NO API KEY NEEDED - everything works offline!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🆘 HAVING TROUBLE?
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Read HOW_TO_RUN.md for:
+  • Detailed step-by-step guide
+  • Common errors & fixes
+  • How to add API keys (optional)
+  • How to use each tab
+
+  Read DEPLOYMENT.md for:
+  • How to submit the project
+  • How to deploy to the cloud
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📖 FILES IN THIS PROJECT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  START_HERE.txt ................. This file
+  HOW_TO_RUN.md .................. Full setup guide with troubleshooting
+  DEPLOYMENT.md .................. How to submit & deploy to cloud
+  README.md ...................... Complete project documentation
+
+  RUN_ON_WINDOWS.bat ............. Click this to run on Windows
+  RUN_ON_MAC_LINUX.sh ............ Click this to run on macOS/Linux
+
+  app.py ......................... Main Streamlit application
+  requirements.txt ............... Python dependencies
+  sample_data/ ................... Test document to try
+
+  (and other .py files that make the app work)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎯 QUICK TROUBLESHOOTING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  "python not found"
+  → Install Python from python.org, make sure to check "Add to PATH"
+
+  "No module named streamlit"
+  → Run: pip install -r requirements.txt
+
+  ".bat file won't open"
+  → Right-click it, select "Open with..." then "Command Prompt"
+
+  "Permission denied" (on Mac/Linux)
+  → Run: chmod +x RUN_ON_MAC_LINUX.sh
+     Then: bash RUN_ON_MAC_LINUX.sh
+
+  Still stuck?
+  → Read HOW_TO_RUN.md for detailed troubleshooting
+
+================================================================================
+You're ready! Pick your OS above and follow the steps. Good luck! 🚀
+================================================================================
